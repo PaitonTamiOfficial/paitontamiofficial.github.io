@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "ComicMono";
+    src: url("fonts/ComicMono.ttf");
+}
+
+body {
+    background-color: black;
+    font-family: "ComicMono";
+    color: white;
+}
+
+#text1 {
+    margin: 15px;
+    padding: 2px;
+}
+
+#link1 {
+    text-decoration: none;
+    color: inherit;
+}
