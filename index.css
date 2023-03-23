@@ -9,12 +9,36 @@ body {
     color: white;
 }
 
-#text1 {
-    margin: 15px;
-    padding: 2px;
+p {
+    margin: 1px;
 }
 
-#link1 {
-    text-decoration: none;
-    color: inherit;
+#WelcomeText {
+    margin: 1px;
+    padding: 0px;
+}
+
+#Slogan {
+    margin: 2px;
+    padding: 0px;
+}
+
+#ContactUs {
+    border: none;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#ContactUs:hover {
+    color: white;
+    background-color: black;
+    border: solid white;
+    border-width: 1px;
+    transition: 0.5s;
 }
